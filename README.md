@@ -21,10 +21,12 @@ ___
 * CSS
 ___
 ### TO RUN...
-1. Type 'npm install' in VS Code terminal, as node-modules folder is listed in .gitignore. The npm install command will install all dependencies that allow the app to run
-2. Type 'npm startDev' to run the app. This will open the app at...
+1. If you're not already, be sure to change directory to webdevproj. Type 'cd webdevproj' in VS Code terminal. 
+   *note: this prject folder typically opens in the root directory: MERN_WebProject
+2. Type 'npm install' in VS Code terminal, as node-modules folder is listed in .gitignore. The npm install command will install all dependencies that allow the app to run
+3. Type 'npm startDev' to run the app. This will open the app at...
     * http://localhost:3000
-3. Use sidebar to navigate features
+4. Use sidebar to navigate features
 ___
 ### LICENSE...
 MIT (minimally restrictive)
