@@ -4,9 +4,9 @@ ___
 ### DESCRIPTION...
 This is a notional MERN web project and is meant to be used as a personal example/reference/template/practice. This project is not intended to be launched/hosted. It is, instead, meant to be code-centric.
 My goal with this project is to...
-* pracice writing features and properly icorporating them into a user-friendly  website [albeit a minimalist one that solves no real problem]
+* pracice writing features and properly incorporating them into a notional  website
 * create a location for referencing feature specific code
-* host a git repo that I can use as an example of my fundamental MERN stack skills
+* host a git repo that I can use as an example of my fundamental MERN stack understanding
 ___
 ### TABLE OF CONTENTS...
 (not required)
@@ -35,7 +35,8 @@ MIT (minimally restrictive)
 
 ___
 ___
-note: frome here down is README.md file general formatting notes
+note: frome here down is output for general README.md file formatting notes (i.e. not specific to this project)
+___
 
 # HEADER 1
 ## HEADER 2
