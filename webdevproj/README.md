@@ -1,3 +1,44 @@
+# MERN_WebProject
+Developer: Mark Golden
+___
+### DESCRIPTION...
+This is a notional MERN web project and is meant to be used as a personal example/reference/template/practice. This project is not intended to be launched/hosted. It is, instead, meant to be code-centric.
+My goal with this project is to...
+* pracice writing features and properly incorporating them into a notional  website
+* create a location for referencing feature specific code
+* host a git repo that I can use as an example of my fundamental MERN stack understanding
+___
+### TABLE OF CONTENTS...
+(not required)
+___
+### TECH USED...
+(This project was initiated with npm's create-react-app module)
+* MongoDB
+* Express
+* React
+* Node
+* JS
+* HTML, JSX
+* CSS
+___
+### TO RUN...
+1. If you're not already, be sure to change directory to webdevproj. Type 'cd webdevproj' in VS Code terminal. 
+   *note: this project folder typically opens in the root directory: MERN_WebProject
+2. Type 'npm install' in VS Code terminal, as node-modules folder is listed in .gitignore. The npm install command will install all dependencies that allow the app to run
+3. Type 'npm startDev' to run the app. This will open the app at...
+    * http://localhost:3000
+4. Use sidebar to navigate features
+___
+### LICENSE...
+MIT (minimally restrictive)
+ * The source code doesn’t need to be public when a distribution of the software is made.
+ * Modifications to the software can be release under any license.
+ * Changes made to the source code may not be documented.
+ * No explicit position on patent usage.
+___
+___
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
