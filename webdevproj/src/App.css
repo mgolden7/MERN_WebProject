@@ -1,39 +1,124 @@
+/* .App component styling. Note: .App.js is the parent component*/
 .App {
-  text-align: center;
-  background-color: aquamarine;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .Header.js component styling*/
+.header {
+    width: 100vw;
+    background-color: rgb(55, 55, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+}
+    .title {
+        margin: 0px;
+    }
+    .navLinks1 {
+        margin-left: 20px;
+    }
+        .homeIcon {
+            width: 25px;
+            height: auto;
+            margin-right: 5px;
+        }
+        .homeIcon:hover {
+            color: rgb(255, 123, 0);
+            cursor: pointer;
+        }
+        .homeIcon:active {
+            color: rgb(186, 84, 0);
+        }
+
+        .profileIcon {
+            width: 23px;
+            height: auto;
+            margin-left: 5px;
+        }
+        .profileIcon:hover {
+            color: rgb(255, 123, 0);
+            cursor: pointer;
+        }
+        .profileIcon:active {
+            color: rgb(186, 84, 0);
+        }
+    
+    .navLinks2 {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+        .about, .contact {
+            padding: 5px;
+            display: flex;
+        }
+        .about:hover, .contact:hover {
+            color: rgb(255, 123, 0);
+            cursor: pointer;
+        }
+        .about:active, .contact:active {
+            color: rgb(186, 84, 0);
+        }   
+
+/* .main div styling*/
+.main {
+    background-color: rgb(223, 223, 253);
+    height: 95vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .Footer.js component styling*/
+.footer {
+    width: 100vw;
+    background-color: rgb(223, 223, 253);
+    color: rgb(135, 141, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid rgb(205, 208, 255);
+    font-size: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    .footerContent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 20px;
+                
+    }
+        .copyrightText, .copyrightLogo, .copyrightDate {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .backToTop {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            margin-right: 20px;
+        }
+            .backToTopText {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+            .upArrow {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                width: 15px;
+                height: auto;
+            }
+                .backToTop:hover {
+                    color: rgb(255, 123, 0);
+                    cursor: pointer;
+                    font-weight: bolder;
+                }
+                .backToTop:active {
+                    color: rgb(186, 84, 0);
+                }
