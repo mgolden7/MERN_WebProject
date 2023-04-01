@@ -7,7 +7,10 @@ const Header = () => {
     <div className='header'>
         <div className='navLinks1'>
           <FaHome className='homeIcon'/>
-          <CgProfile className='profileIcon'/>
+          <div className='profileDiv'>
+            <CgProfile className='profileIcon'/>
+            <p className='profileName'>(name)</p>
+          </div>
         </div>
         <h1 className='title'>WebDev Project</h1>
         <div className='navLinks2'>
