@@ -5,7 +5,7 @@ const Registration = () => {
     <div className='registration'>
         <form className='registrationForm'>Create Account
             <div className='registrationFormQuestions'>
-                <label className='inputLabel'>name
+                <label className='inputLabel'>name (username)
                     <input type='text' placeholder='name'></input>
                 </label>
                 <label className='inputLabel'>email
