@@ -2,17 +2,16 @@
 Developer: Mark Golden
 ___
 ### DESCRIPTION...
-This is a notional MERN web project and is meant to be used as a personal example/reference/template/practice. This project is not intended to be launched/hosted. It is, instead, meant to be code-centric.
+This is a notional MERN web application practice project. It is not intended to be launched/hosted. It is, instead, meant to be code-centric.
 My goal with this project is to...
 * pracice writing features and properly incorporating them into a notional  website
-* create a location for referencing feature specific code
-* host a git repo that I can use as an example of my fundamental MERN stack understanding
+* create a [github] location for referencing feature specific code
 ___
 ### TABLE OF CONTENTS...
 (not required)
 ___
 ### TECH USED...
-(This project was initiated with npm's create-react-app module)
+(This project was initiated with npm's create-react-app module. See "Getting Started with Create React App" section below)
 * MongoDB
 * Express
 * React
@@ -24,10 +23,10 @@ ___
 ### TO RUN...
 1. If you're not already, be sure to change directory to webdevproj. Type 'cd webdevproj' in VS Code terminal. 
    *note: this project folder typically opens in the root directory: MERN_WebProject
-2. Type 'npm install' in VS Code terminal, as node-modules folder is listed in .gitignore. The npm install command will install all dependencies that allow the app to run
-3. Type 'npm startDev' to run the app. This will open the app at...
+2. Type 'npm install' in VS Code terminal, as node-modules folder is listed in .gitignore. 
+3. Type 'npm start' to run the app. This will open the app at...
     * http://localhost:3000
-4. Use sidebar to navigate features
+4. Follow on-screen prompts
 ___
 ### LICENSE...
 MIT (minimally restrictive)
