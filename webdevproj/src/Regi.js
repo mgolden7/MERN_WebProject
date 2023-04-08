@@ -68,8 +68,19 @@ const Registration = () => {
         setErrMsg('');
     }, [user, email, matchEmail, pwd, matchPwd])
 
-    const submitForm = () => {
+    const submitForm = async (e) => {
+        e.preventDefault();
+        //if button enabled with JS hack - a nefarious intruder
+        const v1 = USER_REGEX.test(user);
+        const v2 = PWD_REGEX.test(pwd);
+        const v3 = EMAIL_REGEX.test(email);
+        if (!v1 || !v2 || !v3) {
+            setErrMsg("Invalid entry. See event log for details.");
+            return;
+        }
+        setSuccess(true)
         console.log('form submitted')
+        console.log(user, email, pwd)
     }
 
   return (
@@ -77,7 +88,7 @@ const Registration = () => {
         
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live='assertive'>{errMsg}</p>
         
-        <form className='registrationForm'>Create Account
+        <form className='registrationForm' onSubmit={submitForm}>Create Account
             <div className='registrationFormQuestions'>
             
             
@@ -254,7 +265,6 @@ const Registration = () => {
                 <button 
                     className='registrationSubmitButton' 
                     disabled={!validName || !validEmail || !validEmailMatch || !validPwd || !validMatch ? true : false}
-                    onClick={submitForm} 
                 >submit
                 </button>
             
